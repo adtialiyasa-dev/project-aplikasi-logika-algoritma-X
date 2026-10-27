@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User profile record for students and administrator teachers",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "fullName": { "type": "string" },
+        "email": { "type": "string" },
+        "nip": { "type": "string" },
+        "className": { "type": "string" },
+        "role": { "type": "string", "enum": ["student", "admin_guru"] },
+        "schoolName": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "fullName", "role"]
+    },
+    "StudentProgress": {
+      "title": "StudentProgress",
+      "description": "Complete learning progress, answers, test traces, and capstone code for a student",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "completedModules": { "type": "array" },
+        "completedExercises": { "type": "array" },
+        "quizBestScore": { "type": "number" },
+        "quizScores": { "type": "object" },
+        "totalPoints": { "type": "number" },
+        "unlockedBadges": { "type": "array" },
+        "reflections": { "type": "object" },
+        "projectStatus": { "type": "string" },
+        "selectedProject": { "type": "string" },
+        "projectNotes": { "type": "object" },
+        "capstoneCodeAnswers": { "type": "object" },
+        "lastActive": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["userId", "totalPoints"]
+    },
+    "AppSettings": {
+      "title": "AppSettings",
+      "description": "Application settings, KKM threshold, lab verification, and school profile configuration",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "kkmScore": { "type": "number" },
+        "autoVerifyLab": { "type": "boolean" },
+        "schoolName": { "type": "string" },
+        "subjectTitle": { "type": "string" },
+        "isProductionConfigured": { "type": "boolean" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "kkmScore", "autoVerifyLab"]
+    },
+    "ModuleDraft": {
+      "title": "ModuleDraft",
+      "description": "Customized or drafted curriculum module content",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "summary": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "title"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profile information for students and teachers"
+    },
+    "/progress/{userId}": {
+      "schema": "StudentProgress",
+      "description": "Detailed learning progress and answers for students"
+    },
+    "/settings/{settingId}": {
+      "schema": "AppSettings",
+      "description": "Global application configuration and evaluation policies"
+    },
+    "/module_drafts/{moduleId}": {
+      "schema": "ModuleDraft",
+      "description": "Draft or customized curriculum modules"
+    }
+  }
+}

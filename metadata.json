@@ -1,0 +1,8 @@
+{
+  "name": "Materi Logika & Algoritma Kelas X SMA",
+  "description": "Aplikasi pembelajaran interaktif Informatika Kelas X SMA Fase E: Logika, Berpikir Komputasional, Algoritma, Flowchart, dan Pemrograman C++ dengan simulator lab koding dan visualisasi interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

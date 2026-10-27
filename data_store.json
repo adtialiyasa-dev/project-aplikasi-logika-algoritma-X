@@ -1,0 +1,244 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "fullName": "Bpk. Rahmat Hidayat, S.Kom., M.Pd., Gr.",
+      "nip": "199206192023211009",
+      "role": "admin_guru",
+      "salt": "a0535a77241c3a9d4abc8f84cea9b7ba",
+      "passwordHash": "97da284cc4e309f8d2a69362e5f44777627e816b98b5e37715f9b5e1d1ad7847c6d38f718a5690d7b75400e64eec341392c05ab7c3bd34c243eb8423906fc446",
+      "createdAt": "2026-10-23T02:04:24.040Z",
+      "isDefaultPassword": true,
+      "email": "rahmat.hidayat@sekolah.sch.id",
+      "schoolName": "SMA Negeri 1 Pembelajaran Digital"
+    },
+    {
+      "id": "std-sample-1",
+      "fullName": "Ahmad Faiz Pratama",
+      "email": "faiz.pratama@sekolah.sch.id",
+      "className": "X-1",
+      "role": "student",
+      "salt": "60e2b102ea55608cfa600470d9943e76",
+      "passwordHash": "edc56e83d757e3ce8c830350c2bb90c0907f718448d0f7bbc8a0ecbf6b2d767b30d9a54ead9a891442d9a34924cfd3535e7580edd9ae03ddea7e0dcc92a20b6d",
+      "createdAt": "2026-10-22T02:04:24.049Z",
+      "plainPassword": "Siswa123!"
+    },
+    {
+      "id": "std-sample-2",
+      "fullName": "Siti Nur Aisyah",
+      "email": "siti.aisyah@sekolah.sch.id",
+      "className": "X-2",
+      "role": "student",
+      "salt": "be736d838b4d2804cdbb63c93657def2",
+      "passwordHash": "ba2a99ea5bb56c3d3a9c4e8ccc8c075d5dfa55fe7696f432b57ba70ffeaf00dc2ca0909c66c662c30f23bef0212b77f16afaaf24f2973ebcdee1052348a9395f",
+      "createdAt": "2026-10-21T02:04:24.056Z",
+      "plainPassword": "Siswa123!"
+    },
+    {
+      "id": "std-sample-3",
+      "fullName": "Budi Santoso",
+      "email": "budi.santoso@sekolah.sch.id",
+      "className": "X-3",
+      "role": "student",
+      "salt": "f90906fd32e6f5138df28c45dad1e208",
+      "passwordHash": "9ca7d38a0eaa00f2fbe31931f50b0358ee90d330ed82440040bb338bd019d3812e56b839c0e75e929baf5f98b125dc315f40b47c64fce71f2f7451532e594938",
+      "createdAt": "2026-10-20T02:04:24.063Z",
+      "plainPassword": "Siswa123!"
+    },
+    {
+      "id": "std-sample-4",
+      "fullName": "Dian Permata Putri",
+      "email": "dian.permata@sekolah.sch.id",
+      "className": "X-5",
+      "role": "student",
+      "salt": "c1a266d4030d937b1f470dc5d7327410",
+      "passwordHash": "9ea52c1cbe8baa9a03df2b2a6bd10fd2e02afc7141d7225f89db9ea57dcc30edb45e3f73e9c7867c9bfe4feab8c40a31fcb9f5eb8b606f7ce492990cc9c268dc",
+      "createdAt": "2026-10-19T02:04:24.071Z",
+      "plainPassword": "Siswa123!"
+    },
+    {
+      "id": "std-sample-5",
+      "fullName": "Kevin Rizky Pratama",
+      "email": "kevin.rizky@sekolah.sch.id",
+      "className": "X-8",
+      "role": "student",
+      "salt": "cb314831a5a7230be6de7703431c87e5",
+      "passwordHash": "4cf17fe39e31ec898a51b27f1637f136b19337405aee6d7c8211dd320f49f768e1d1a3c841f9fc686ea0abe3c86449439916456cf2fbbba9769589187f00c593",
+      "createdAt": "2026-10-18T02:04:24.078Z",
+      "plainPassword": "Siswa123!"
+    },
+    {
+      "id": "std-1792721077224-7e5a3b48",
+      "fullName": "Ahmad Fauzan",
+      "email": "ahmad.fauzan@sma.sch.id",
+      "className": "X-1",
+      "role": "student",
+      "salt": "71688d2ead357c0fb75659b282e68158",
+      "passwordHash": "8ca569f6257875c07e89a2cf78ff069c2ecd9e31fadd6381e3e3751d09d8e79cd20ad85c837d7390c0015d8088fdd2a7b08bf01ad9f14085b019e6c9c62395f4",
+      "createdAt": "2026-10-23T02:04:37.224Z",
+      "plainPassword": "Siswa123!"
+    }
+  ],
+  "progressMap": {
+    "std-sample-1": {
+      "userId": "std-sample-1",
+      "completedModules": [
+        "modul-1",
+        "modul-2",
+        "modul-3"
+      ],
+      "completedExercises": [
+        "lab-1",
+        "lab-2"
+      ],
+      "quizBestScore": 90,
+      "totalPoints": 320,
+      "unlockedBadges": [
+        "ahli-algoritma-dasar",
+        "coder-pertama"
+      ],
+      "reflections": {
+        "modul-1": "Belajar logika membuat saya memahami urutan algoritma kehidupan."
+      },
+      "projectStatus": "Selesai",
+      "selectedProject": "1. Sistem Kasir Kantin Sehat Sekolah Digital",
+      "lastActive": "2026-10-23T02:29:38.186Z"
+    },
+    "std-sample-2": {
+      "userId": "std-sample-2",
+      "completedModules": [
+        "modul-1",
+        "modul-2",
+        "modul-3",
+        "modul-4",
+        "modul-5"
+      ],
+      "completedExercises": [
+        "lab-1",
+        "lab-2",
+        "lab-3",
+        "lab-4"
+      ],
+      "quizBestScore": 85,
+      "totalPoints": 495,
+      "unlockedBadges": [
+        "ahli-algoritma-dasar",
+        "coder-pertama"
+      ],
+      "reflections": {
+        "modul-1": "Belajar logika membuat saya memahami urutan algoritma kehidupan."
+      },
+      "projectStatus": "Dalam Proses",
+      "selectedProject": "1. Sistem Kasir Kantin Sehat Sekolah Digital",
+      "lastActive": "2026-10-23T02:04:24.056Z"
+    },
+    "std-sample-3": {
+      "userId": "std-sample-3",
+      "completedModules": [
+        "modul-1",
+        "modul-2"
+      ],
+      "completedExercises": [
+        "lab-1"
+      ],
+      "quizBestScore": 75,
+      "totalPoints": 215,
+      "unlockedBadges": [
+        "coder-pertama"
+      ],
+      "reflections": {
+        "modul-1": "Belajar logika membuat saya memahami urutan algoritma kehidupan."
+      },
+      "projectStatus": "Belum Mulai",
+      "selectedProject": "1. Sistem Kasir Kantin Sehat Sekolah Digital",
+      "lastActive": "2026-10-23T02:04:24.063Z"
+    },
+    "std-sample-4": {
+      "userId": "std-sample-4",
+      "completedModules": [
+        "modul-1",
+        "modul-2",
+        "modul-3",
+        "modul-4",
+        "modul-5",
+        "modul-6",
+        "modul-7",
+        "modul-8"
+      ],
+      "completedExercises": [
+        "lab-1",
+        "lab-2",
+        "lab-3",
+        "lab-4",
+        "lab-5",
+        "lab-6"
+      ],
+      "quizBestScore": 95,
+      "totalPoints": 735,
+      "unlockedBadges": [
+        "ahli-algoritma-dasar",
+        "coder-pertama"
+      ],
+      "reflections": {
+        "modul-1": "Belajar logika membuat saya memahami urutan algoritma kehidupan."
+      },
+      "projectStatus": "Selesai",
+      "selectedProject": "1. Sistem Kasir Kantin Sehat Sekolah Digital",
+      "lastActive": "2026-10-23T02:04:24.071Z"
+    },
+    "std-sample-5": {
+      "userId": "std-sample-5",
+      "completedModules": [
+        "modul-1"
+      ],
+      "completedExercises": [],
+      "quizBestScore": 65,
+      "totalPoints": 115,
+      "unlockedBadges": [
+        "coder-pertama"
+      ],
+      "reflections": {
+        "modul-1": "Belajar logika membuat saya memahami urutan algoritma kehidupan."
+      },
+      "projectStatus": "Belum Mulai",
+      "selectedProject": "1. Sistem Kasir Kantin Sehat Sekolah Digital",
+      "lastActive": "2026-10-23T02:04:24.078Z"
+    },
+    "std-1792721077224-7e5a3b48": {
+      "userId": "std-1792721077224-7e5a3b48",
+      "completedModules": [],
+      "completedExercises": [],
+      "quizBestScore": 0,
+      "totalPoints": 0,
+      "unlockedBadges": [],
+      "reflections": {},
+      "projectStatus": "Belum Mulai",
+      "lastActive": "2026-10-23T02:04:52.188Z"
+    }
+  },
+  "sessions": {
+    "admin_master_token_2026": {
+      "userId": "admin-1",
+      "role": "admin_guru",
+      "expiresAt": 1824601213470
+    },
+    "tok_YWRtaW4tMS5hZG1pbl9ndXJ1LjE4MjQ2MDEyMTM0NzA.3b1ee488ecef49256585224ac6965fff715d0252405344e27a152670809f3359": {
+      "userId": "admin-1",
+      "role": "admin_guru",
+      "expiresAt": 1824601213470
+    },
+    "tok_YWRtaW4tMS5hZG1pbl9ndXJ1LjE3OTU2NTcyMjU4Mjk.d1e0f49dda79b2b841741bd8d368b96479309f5fffb4c03c4befda79a88ff5e8": {
+      "userId": "admin-1",
+      "role": "admin_guru",
+      "expiresAt": 1795657225829
+    }
+  },
+  "settings": {
+    "kkmScore": 75,
+    "autoVerifyLab": true,
+    "schoolName": "SMA Negeri 1 Pembelajaran Digital",
+    "subjectTitle": "Informatika Fase E (Kelas X SMA)",
+    "isPublishedReady": true,
+    "updatedAt": "2026-10-26T18:25:00.000Z"
+  }
+}

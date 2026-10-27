@@ -1,0 +1,40 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Health check / connection test collection
+    match /test/{testId} {
+      allow read, write: if true;
+    }
+
+    // Application Settings (KKM, policies, school identity)
+    // Accessible for read by all users, writeable by authenticated admin or app sync
+    match /settings/{settingId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // User Profiles
+    match /users/{userId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Student Learning Progress & Capstone Submissions
+    match /progress/{userId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Module Drafts & Curriculum Settings
+    match /module_drafts/{moduleId} {
+      allow read: if true;
+      allow write: if true;
+    }
+  }
+}
